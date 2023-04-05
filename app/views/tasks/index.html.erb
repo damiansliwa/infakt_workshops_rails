@@ -24,7 +24,7 @@
                 </tr>
               </thead>
               <tbody>
-                <% @tasks.each_with_index do |task, index| %>
+                <% @tasks.ordered_by_deadline.each_with_index do |task, index| %>
                   <tr>
                     <th scope="row"><%= index + 1 %></th>
                     <td><%= task.title %></td>
