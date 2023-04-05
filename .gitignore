@@ -36,3 +36,4 @@
 
 #Ignore RubyMine files
 .idea/
+identifier.sqlite
